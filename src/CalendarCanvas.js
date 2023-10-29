@@ -1,0 +1,8 @@
+function canvasEle(){
+    
+    return {   
+        update(){
+
+        }
+    }
+}

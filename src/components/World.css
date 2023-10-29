@@ -1,0 +1,43 @@
+.camera{
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: 100vh;
+    width: 100vw;
+    
+}
+.world{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+
+}
+.task-card{
+    width: 200px;
+    height: 100px;
+
+    
+    position: absolute;
+}
+.column{
+    border: 1px solid black;
+    height: 100vh;
+    width: 200px;
+}
+.all-column{
+    display: flex;
+}
+.table-wrapper{
+    height: 80vh;
+}
+.add-window{
+    z-index: 200;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
